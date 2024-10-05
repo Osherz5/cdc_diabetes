@@ -1,19 +1,35 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:nil arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: README
+#+date: <2024-10-05 Sat>
+#+author: Osher Jacob
+#+email: osher.jacob@colorado.edu
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 29.4 (Org mode 9.6.15)
+#+cite_export:
+
+
 * Introduction
 ** Project Topic
 This supervised machine learning project aims to analyze the CDC diabetes dataset to predict the likelihood of diabetes in individuals based on various health and demographic factors.
-By leveraging features such as age, BMI, blood pressure, and cholesterol levels, we employ algorithms like logistic regression, decision trees, and ensemble based methods to classify participants as diabetic or non-diabetic.
+By leveraging features such as age, BMI, blood pressure, and cholesterol levels, we employ ensemble based algorithms to classify participants as diabetic or non-diabetic.
 The project includes data preprocessing, feature selection, model training, and evaluation using various metrics.
 Ultimately, the goal is to develop a reliable predictive model that can assist healthcare professionals in early identification and intervention for diabetes risk, contributing to better management and prevention strategies.
 
 ** Data
-The Diabetes Health Indicators Dataset includes healthcare statistics and lifestyle survey data, featuring attributes such as demographics, lab test results, and survey responses.
-The target variable indicates whether a patient is diabetic, pre-diabetic, or healthy.
+The Diabetes Health Indicators Dataset includes 253680 records with 21 predictors consisting of healthcare statistics and lifestyle survey data, featuring attributes such as demographics, lab test results, and survey responses.
+The target variable indicates whether a patient is diabetic/pre-diabetic, or healthy.
 
 *** Data Source
 Centers for Disease Control and Prevention (CDC). Behavioral Risk Factor Surveillance System Survey Data. Atlanta, Georgia: U.S. Department of Health and Human Services, Centers for Disease Control and Prevention, 2014.
 CDC Diabetes Health Indicators [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C53919
 
-*** Data description
+*** Data Description
 
 | Variable Name        | Role    | Type    | Demographic     | Description                                                                                                                                                                                                                                                                                                                             | Units | Missing Values |
 |----------------------+---------+---------+-----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+----------------|
